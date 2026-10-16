@@ -3,145 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Altitude DIY 隐私政策 / Privacy Policy" />
-    <title>Altitude DIY — 隐私政策 Privacy Policy</title>
+    <meta
+      name="description"
+      content="Altitude DIY — 海拔DIY打卡。举屏显示超大海拔数字，手动自定义海拔与高原景点快捷切换。"
+    />
+    <title>Altitude DIY — 海拔DIY打卡</title>
     <link rel="icon" type="image/svg+xml" href="/heightDIY/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/heightDIY/assets/index-BZSJvIbX.js"></script>
-    <link rel="stylesheet" crossorigin href="/heightDIY/assets/index-eHYex2KD.css">
+    <script type="module" crossorigin src="/heightDIY/assets/main-DZ1t4LeK.js"></script>
+    <link rel="stylesheet" crossorigin href="/heightDIY/assets/main-BAzVEMld.css">
   </head>
-  <body>
+  <body data-page="home">
+    <a class="skip" href="#main">Skip to content</a>
     <div class="bg" aria-hidden="true"></div>
 
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="brand" href="#top">
+        <a class="brand" href="./index.html">
           <span class="brand-mark" aria-hidden="true"></span>
           <span class="brand-text">
             <strong>Altitude DIY</strong>
             <em data-i18n="brandSub">海拔DIY打卡</em>
           </span>
         </a>
-        <nav class="nav" aria-label="Language switcher">
-          <button type="button" class="lang-btn is-active" data-lang="zh" aria-pressed="true">中文</button>
-          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">English</button>
-        </nav>
+        <div class="header-actions">
+          <nav class="site-nav" aria-label="Primary">
+            <a class="nav-link is-active" href="./index.html" data-i18n="navHome">首页</a>
+            <a class="nav-link" href="./privacy.html" data-i18n="navPrivacy">隐私政策</a>
+            <a class="nav-link" href="./terms.html" data-i18n="navTerms">使用条款</a>
+            <a class="nav-link" href="./support.html" data-i18n="navSupport">支持</a>
+          </nav>
+          <nav class="lang-switch" aria-label="Language">
+            <button type="button" class="lang-btn is-active" data-lang="zh" aria-pressed="true">中文</button>
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          </nav>
+        </div>
       </div>
     </header>
 
-    <main id="top" class="wrap">
-      <section class="hero">
-        <p class="eyebrow" data-i18n="eyebrow">Legal</p>
-        <h1 data-i18n="title">隐私政策</h1>
-        <p class="lede" data-i18n="lede">
-          本政策说明 Altitude DIY（海拔DIY打卡）如何处理与您设备相关的信息。我们重视你的隐私，只收集 App
-          运行所必需的最少数据。
+    <main id="main">
+      <section class="wrap hero-block">
+        <p class="store-badge" data-i18n="home.badge">App Store</p>
+        <h1 data-i18n="home.heroTitle">举屏打卡，海拔由你定</h1>
+        <p class="lede" data-i18n="home.heroLede">
+          Altitude DIY 是专为户外旅行与社交打卡设计的实时高度表。超大海拔数字、手动 DIY 海拔、高原景点一键切换——举起手机即可入镜。
         </p>
-        <p class="meta">
-          <span data-i18n="updatedLabel">最近更新：</span>
-          <time datetime="2026-10-15">2026-10-15</time>
-          <span class="dot">·</span>
-          <span data-i18n="appLabel">适用产品：</span>
-          Altitude DIY
-        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="./privacy.html" data-i18n="home.ctaPrivacy">查看隐私政策</a>
+          <a class="btn btn-ghost" href="./support.html" data-i18n="home.ctaSupport">获取支持</a>
+        </div>
+
+        <div class="preview-dial" aria-hidden="true">
+          <div class="preview-ring">
+            <span class="ns n">N</span>
+            <span class="ns s">S</span>
+            <div class="preview-core">
+              <span>ALT</span>
+              <strong>4600 <small>m</small></strong>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <article class="card prose">
-        <section>
-          <h2 data-i18n="s1.title">1. 我们是谁</h2>
-          <p data-i18n="s1.body">
-            Altitude DIY 是一款面向户外与旅行打卡场景的 iOS 应用，用于在手机屏幕上显示海拔、坐标等信息，方便你进行举屏拍照打卡。开发者可通过本页面底部的联系方式与你沟通隐私相关事宜。
-          </p>
-        </section>
+      <section class="wrap section">
+        <h2 class="section-title light" data-i18n="home.featTitle">为什么用 Altitude DIY</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3 data-i18n="home.feat1.t">超大圆盘展示</h3>
+            <p data-i18n="home.feat1.d">青绿到橙褐渐变 + 红色海拔圆盘，举屏拍照清晰有仪式感。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="home.feat2.t">DIY 自定义海拔</h3>
+            <p data-i18n="home.feat2.d">手动模式下滑条、拖动圆盘或精确输入，海拔完全由你设定。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="home.feat3.t">高原景点快捷点</h3>
+            <p data-i18n="home.feat3.d">西藏、川西、青海、新疆、云南等地标，一键同步海拔与经纬度。</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="home.feat4.t">出镜模式与锁定</h3>
+            <p data-i18n="home.feat4.d">隐藏控制栏方便拍摄；锁定海拔防止误触。</p>
+          </article>
+        </div>
+      </section>
 
-        <section>
-          <h2 data-i18n="s2.title">2. 我们收集哪些信息</h2>
-          <p data-i18n="s2.intro">应用可能在你授权后访问以下设备能力。这些数据默认仅在本机处理与展示：</p>
-          <ul>
-            <li data-i18n="s2.l1">
-              <strong>位置信息（GPS）</strong>：用于读取海拔、经纬度、速度，以及指南针航向。可在系统设置中随时关闭定位权限。
-            </li>
-            <li data-i18n="s2.l2">
-              <strong>运动与气压计数据</strong>：用于显示大气压强等辅助读数（在设备支持时）。
-            </li>
-            <li data-i18n="s2.l3">
-              <strong>你主动设置的内容</strong>：例如手动海拔、锁定状态、快捷打卡点选择等，仅保存在本地设备内存/会话中，用于界面展示。
-            </li>
-          </ul>
-          <p data-i18n="s2.note">
-            我们不会要求你注册账号，也不会收集姓名、手机号、邮箱、通讯录、相册内容或支付信息。
+      <section class="wrap section">
+        <div class="hub-panel">
+          <h2 data-i18n="home.legalTitle">法律与支持</h2>
+          <p class="hub-lede" data-i18n="home.legalLede">
+            这些页面说明 Altitude DIY 如何在你的设备上处理位置、气压与你设定的海拔信息。应用没有账号，也不会把位置轨迹上传到开发者的服务器。
           </p>
-        </section>
-
-        <section>
-          <h2 data-i18n="s3.title">3. 信息如何使用</h2>
-          <ul>
-            <li data-i18n="s3.l1">在 App 界面实时展示海拔、坐标、气压与速度；</li>
-            <li data-i18n="s3.l2">支持手动自定义海拔与快捷打卡点（景点海拔/坐标）出镜展示；</li>
-            <li data-i18n="s3.l3">提供出镜模式与锁定功能，方便你拍照打卡时减少误触。</li>
-          </ul>
-          <p data-i18n="s3.note">我们不会将上述信息用于广告画像、个性化营销或出售给第三方。</p>
-        </section>
-
-        <section>
-          <h2 data-i18n="s4.title">4. 存储与传输</h2>
-          <p data-i18n="s4.body">
-            定位、气压与你在 App 内设置的海拔相关信息，均在设备本地处理。当前版本不会将位置轨迹或个人标识上传至我们的服务器。若未来功能变更涉及云端同步，我们会先更新本政策并在应用内提示。
-          </p>
-        </section>
-
-        <section>
-          <h2 data-i18n="s5.title">5. 第三方服务</h2>
-          <p data-i18n="s5.body">
-            当前版本不集成分析 SDK、广告 SDK 或社交登录。系统级能力（如 Core Location、气压计）由 Apple 系统提供，并受你在 iOS「设置」中的权限控制。
-          </p>
-        </section>
-
-        <section>
-          <h2 data-i18n="s6.title">6. 你的选择与权利</h2>
-          <ul>
-            <li data-i18n="s6.l1">可在 iOS 设置中关闭「位置」或「运动与健身」相关权限；</li>
-            <li data-i18n="s6.l2">可随时改用「手动自定义海拔」，不再依赖实时 GPS 读数；</li>
-            <li data-i18n="s6.l3">卸载 App 后，设备上的相关本地展示数据将随应用删除。</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2 data-i18n="s7.title">7. 儿童隐私</h2>
-          <p data-i18n="s7.body">
-            本应用不面向 13 岁以下儿童设计，也不会故意收集儿童的个人信息。
-          </p>
-        </section>
-
-        <section>
-          <h2 data-i18n="s8.title">8. 政策更新</h2>
-          <p data-i18n="s8.body">
-            我们可能不时更新本隐私政策。重大变更时，将通过更新本页面的「最近更新」日期，并在合理范围内进行告知。继续使用 Altitude DIY 即表示你知悉更新后的政策。
-          </p>
-        </section>
-
-        <section>
-          <h2 data-i18n="s9.title">9. 联系我们</h2>
-          <p data-i18n="s9.body">
-            如对本隐私政策或数据处理有任何疑问，请通过以下方式联系：
-          </p>
-          <p class="contact">
-            <span data-i18n="emailLabel">邮箱：</span>
-            <a href="mailto:bobojensen@163.com">bobojensen@163.com</a>
-          </p>
-        </section>
-      </article>
+          <div class="hub-cards">
+            <a class="hub-card" href="./privacy.html">
+              <h3 data-i18n="home.cardPrivacy.t">隐私政策</h3>
+              <p data-i18n="home.cardPrivacy.d">说明哪些信息只留在本机、定位与气压权限何时才会用到，以及卸载后数据会怎样。</p>
+            </a>
+            <a class="hub-card" href="./terms.html">
+              <h3 data-i18n="home.cardTerms.t">使用条款</h3>
+              <p data-i18n="home.cardTerms.d">使用许可、DIY 海拔展示的用途边界，以及你应自行判断展示内容的真实性。</p>
+            </a>
+            <a class="hub-card" href="./support.html">
+              <h3 data-i18n="home.cardSupport.t">支持</h3>
+              <p data-i18n="home.cardSupport.d">如何手动改海拔、选用打卡点、出镜与锁定，以及权限被拒绝时可以做什么。</p>
+            </a>
+          </div>
+          <p class="hub-tagline" data-i18n="home.tagline">Altitude DIY 只在你的设备上处理海拔与坐标展示。</p>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
       <div class="wrap footer-inner">
         <p data-i18n="footer">© 2026 Altitude DIY. All rights reserved.</p>
-        <a href="#top" data-i18n="backTop">回到顶部</a>
+        <div class="footer-links">
+          <a href="./privacy.html" data-i18n="navPrivacy">隐私政策</a>
+          <a href="./terms.html" data-i18n="navTerms">使用条款</a>
+          <a href="./support.html" data-i18n="navSupport">支持</a>
+        </div>
       </div>
     </footer>
 
